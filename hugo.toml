@@ -1,5 +1,5 @@
-baseURL = "http://localhost"
-title = "Geekblog"
+baseURL = "https://andrazjelenc.github.io"
+title = "./cyber-blog.sh"
 theme = "hugo-geekblog"
 
 pluralizeListTitles = false
@@ -8,6 +8,12 @@ pluralizeListTitles = false
 pygmentsUseClasses = true
 pygmentsCodeFences = true
 disablePathToLower = true
+
+[params]
+Subtitle = "Blog about DevOps, Security and Technology"
+geekblogDarkModeToggle = false
+geekblogDarkModeCode = true
+logo = "logo.png"
 
 # Needed for mermaid shortcodes
 [markup]
@@ -18,7 +24,6 @@ disablePathToLower = true
     endLevel = 9
 
 [taxonomies]
-  author = "authors"
   tag = "tags"
 
 [mediaTypes]

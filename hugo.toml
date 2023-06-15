@@ -1,5 +1,5 @@
 baseURL = "https://andrazjelenc.github.io"
-title = "./cyber-blog.sh"
+title = "./blog.sh"
 theme = "hugo-geekblog"
 
 pluralizeListTitles = false
